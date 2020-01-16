@@ -33,7 +33,7 @@ const App = () => {
           setDisplay(v);
           setValue(v);
         }}
-        renderTick={tick => <Tick {...tick} />}>
+        renderTick={tick => <Tick key={tick.index} {...tick} />}>
         <CenterLine
           style={{
             backgroundColor: 'red',

@@ -49,5 +49,25 @@
   },
   "dependencies": {
     "lodash-es": "^4.17.15"
-  }
+  },
+  "description": "React Native Number Scrubber",
+  "directories": {
+    "example": "example",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/browniefed/react-native-scrub.git"
+  },
+  "keywords": [
+    "react-native",
+    "scrubber",
+    "number",
+    "scrubber",
+    "dynamic"
+  ],
+  "bugs": {
+    "url": "https://github.com/browniefed/react-native-scrub/issues"
+  },
+  "homepage": "https://github.com/browniefed/react-native-scrub#readme"
 }

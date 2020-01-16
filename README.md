@@ -2,7 +2,16 @@
 
 A React Native number scrubber using React Native Gesture Handler
 
-![](./demo.gif)
+## Install
+
+```
+yarn add react-native-scrub react-native-gesture-handler
+
+cd ios
+pod install
+```
+
+## Demo
 
 ```jsx
 import React, { useState } from 'react';
@@ -51,3 +60,5 @@ const App = () => {
 
 export default App;
 ```
+
+![](./demo.gif)

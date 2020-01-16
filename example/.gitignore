@@ -21,6 +21,7 @@ DerivedData
 *.ipa
 *.xcuserstate
 
+
 # Android/IntelliJ
 #
 build/
@@ -57,3 +58,5 @@ buck-out/
 
 # CocoaPods
 /ios/Pods/
+
+react-native-scrub/

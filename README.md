@@ -14,6 +14,7 @@ pod install
 ## How To Use
 
 `onUpdate` will return each scrub which should be used to update a display value.
+
 `onChange` will return when the user stops scrubbing. This can be used to update the display, and update the value passed into the component again. If you adjust the value another way the `Scrubber` will spring to the new value.
 
 ## Demo

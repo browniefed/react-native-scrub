@@ -17,6 +17,15 @@ pod install
 
 `onChange` will return when the user stops scrubbing. This can be used to update the display, and update the value passed into the component again. If you adjust the value another way the `Scrubber` will spring to the new value.
 
+`min` is the minimum value that is allowed
+
+`max` is the maximum value that is allowed
+
+`step` is how the scrubber should create the range from the `min` to the `max`.
+
+`renderTick` will be called with the current index, step value, and allow you to control how each tick is rendered. You can use the one provided or write your own.
+
+
 ## Demo
 
 ```jsx

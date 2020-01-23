@@ -7,7 +7,6 @@ import {
   Animated,
   ViewStyle,
 } from 'react-native';
-//@ts-ignore
 import { linear } from './linear';
 import { clamp, range } from 'lodash-es';
 
@@ -148,7 +147,9 @@ export const Slider: React.FC<Props> = ({
       Animated.spring(translateX, {
         toValue: valueToPx(activeValue),
         velocity: event.nativeEvent.velocityX,
-      }).start();
+      }).start(() => {
+        offsetX.current = 0;
+      });
     }
   };
 

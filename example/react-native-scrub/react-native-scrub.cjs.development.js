@@ -199,7 +199,9 @@ var Slider = function Slider(_ref3) {
       reactNative.Animated.spring(translateX, {
         toValue: valueToPx(activeValue),
         velocity: event.nativeEvent.velocityX
-      }).start();
+      }).start(function () {
+        offsetX.current = 0;
+      });
     }
   };
 

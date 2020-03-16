@@ -11,6 +11,8 @@ cd ios
 pod install
 ```
 
+On Android, make sure to [finish integrating](https://software-mansion.github.io/react-native-gesture-handler/docs/getting-started.html#android) `react-native-gesture-handler`, if you haven't already.
+
 ## How To Use
 
 `onUpdate` will return each scrub which should be used to update a display value.

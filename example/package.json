@@ -10,10 +10,10 @@
     "lint": "eslint ."
   },
   "dependencies": {
+    "lodash-es": "../node_modules/lodash-es",
     "react": "../node_modules/react",
     "react-native": "../node_modules/react-native",
-    "react-native-gesture-handler": "../node_modules/react-native-gesture-handler",
-    "lodash-es": "../node_modules/lodash-es"
+    "react-native-gesture-handler": "^1.6.0"
   },
   "devDependencies": {
     "@babel/core": "^7.8.3",
